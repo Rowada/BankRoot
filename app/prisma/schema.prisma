@@ -20,14 +20,15 @@ model Client {
 }
 
 model Account {
-  id_account  Int           @id @default(autoincrement())
-  id_client   Int
-  admin_id    Int
-  created_at  DateTime      @default(now())
-  updated_at  DateTime      @default(now())
-  client      Client        @relation(fields: [id_client], references: [id_client])
-  admin       Admin         @relation(fields: [admin_id], references: [id_admin])
-  transaction Transaction[]
+  id_account     Int           @id @default(autoincrement())
+  id_client      Int
+  admin_id       Int
+  account_number Int
+  created_at     DateTime      @default(now())
+  updated_at     DateTime      @default(now())
+  client         Client        @relation(fields: [id_client], references: [id_client])
+  admin          Admin         @relation(fields: [admin_id], references: [id_admin])
+  transaction    Transaction[]
 }
 
 model Transaction {
