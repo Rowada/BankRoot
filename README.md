@@ -1,90 +1,114 @@
-![GitHub contributors](https://img.shields.io/github/contributors/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub stars](https://img.shields.io/github/stars/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub issues](https://img.shields.io/github/issues/Simplon-hdf/structure-projet?style=for-the-badge)
-![GitHub license](https://img.shields.io/github/license/Simplon-hdf/structure-projet?style=for-the-badge)
 
-<h1 align="center">Project name</h1>
 
-<div align="center">
+<h1 align="center"> 🏦 Bank Root</h1>
 
-## Project Description
+<br>
 
-Ce dépôt est une structure permettant de démarrer un projet professionnel ou personnel. Ceci vous fera gagner un temps précieux et maximiser votre temps de travail.
+## Contexte du projet
 
-</div>
+Vous êtes développeur junior au sein du service informatique d’une enseigne bancaire nommée Bank Root.
 
-## About The Project
+Le coeur de cible de cette banque était jusqu’à maintenant de proposer des services bancaires sur site.
+
+Elle souhaite maintenant diversifier sa clientèle, entrer de plein pied dans l’ère du numérique ( kek …) et (ENFIN) proposer à ses usagers un service bancaire en ligne renouvelé afin d’attirer de nouveaux utilisateurs et moderniser son offre.
+
+La mission de votre équipe est de concevoir une application qui permet à votre employeur la gestion de ses comptes bancaires en ligne dans un premier temps et dans un second temps de proposer des services de gestion bancaire à vos clients (dépôts, virements, etc …).
+
+​
+
+​
+
+Une API fonctionnelle doit être fournie avec la possibilité que :
+
+- A chaque client correspond un compte avec un numéro unique
+- Chaque compte peut être débiteur ou créditeur
+- Chaque compte peut faire des demandes de retraits ou dépôts
+- Des transactions peuvent être effectuer entre tous les comptes, les montants doivent être correctement réaffectés.
+- Chaque compte doit disposer d'un listing avec toutes les transactions
+
+<br>
 
 ### Built With
 
-- ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
-- ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
-- ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![NestJS](https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)
+
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+
+![Prisma](https://img.shields.io/badge/Prisma-3982CE?style=for-the-badge&logo=Prisma&logoColor=white)
 
 <details>
 <summary><h2>Checklist</h2></summary>
 
-- [ ] **Choix de la méthodologie (Agile)**
-- [ ] **Créer un repo Github**
-- [ ] **Créer la structure du repo (Best practice)**
+- [x] **Choix de la méthodologie (Agile)**
+
+- [x] **Créer un repo Github**
+
+- [x] **Créer la structure du repo (Best practice)**
 
   - Dossier
-    - [ ] .config
-    - [ ] dep
-    - [ ] doc
-    - [ ] res
-    - [ ] samples
-    - [ ] tools
-    - [ ] build
-    - [ ] test
+    - [x] .config
+    - [x] dep
+    - [x] doc
+    - [x] res
+    - [x] samples
+    - [x] tools
+    - [x] build
+    - [x] test
   - Fichier
-    - [ ] LICENCE.md
-    - [ ] README.md
-    - [ ] .gitattributes
-    - [ ] .gitignore
-    - [ ] .gitmodules
-    - [ ] .dockerignore
+    - [x] LICENCE.md
+    - [x] README.md
+    - [x] .gitattributes
+    - [x] .gitignore
+    - [x] .gitmodules
+    - [x] .dockerignore
 
-- [ ] **Mise en place du Readme**
-- [ ] **Cadrage de la demande client**
-  - [ ] Contexte / Enjeux / Problèmatique
-  - [ ] Questions entretiens
-  - [ ] Persona
-  - [ ] Présentation (PowerPoint)
-  - [ ] Mail de suivie / Proposition stratégique
-- [ ] **Benchmark (Analyse de la concurence)**
-- [ ] **Spécification fonctionnelle**
-  - [ ] Règle de gestion
-  - [ ] UML
-    - [ ] Diagramme d'activité
-    - [ ] Use case
-    - [ ] Diagramme de séquence
-    - [ ] Diagramme de classe
-  - [ ] Merise
-    - [ ] MCD
-    - [ ] MLD
-    - [ ] MPD
-  - [ ] RBAC
-- [ ] **Epic**
-  - [ ] User Story
-  - [ ] Product backlog (Tâches)
-- [ ] **Jira**
-- [ ] **Rituels agiles**
+- [x] **Mise en place du Readme**
 
-  - [ ] Sprint planning meeting
-  - [ ] Stand up meeting
-  - [ ] Sprint retrospective
-  - [ ] Sprint Review
+- [x] **Cadrage de la demande client**
 
-- [ ] **Démarrer les sprints**
+  - [x] Contexte / Enjeux / Problèmatique
+  - [x] Questions entretiens
+  - [x] Persona
+  - [x] Présentation (PowerPoint)
+  - [x] Mail de suivie / Proposition stratégique
+
+- [x] **Benchmark (Analyse de la concurence)**
+
+- [x] **Spécification fonctionnelle**
+
+  - [x] Règle de gestion
+  - [x] UML
+    - [x] Diagramme d'activité
+    - [x] Use case
+    - [x] Diagramme de séquence
+    - [x] Diagramme de classe
+  - [x] Merise
+    - [x] MCD
+    - [x] MLD
+    - [x] MPD
+  - [x] RBAC
+
+- [x] **Epic**
+
+  - [x] User Story
+  - [x] Product backlog (Tâches)
+
+- [x] **Jira**
+
+- [x] **Rituels agiles**
+
+  - [x] Sprint planning meeting
+  - [x] Stand up meeting
+  - [x] Sprint retrospective
+  - [x] Sprint Review
+
+- [x] **Démarrer les sprints**
 
 </details>
 
 ## Author
 
-## License
+- [:bust_in_silhouette: @Kurt](https://github.com/delannoykurt)
+- [:bust_in_silhouette: @Josué](https://github.com/Rowada)
 
-Distributed under the MIT License. `LICENSE` See for more information.
 
-## Ressource
