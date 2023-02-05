@@ -112,3 +112,4 @@ Une API fonctionnelle doit être fournie avec la possibilité que :
 - [:bust_in_silhouette: @Josué](https://github.com/Rowada)
 
 
+## Resources
