@@ -8,8 +8,9 @@ export class AccountsService {
   constructor(private prisma: PrismaService) {}
   async create(createAccountDto: CreateAccountDto) {
     const newAccount = await this.prisma.account.create({
-      data: createAccountDto,
+      data:{ ...createAccountDto}
     });
+    return newAccount;
   }
   findAll() {
     return this.prisma.account.findMany({
